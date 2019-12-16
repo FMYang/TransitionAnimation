@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8840C17E22978321008A4B38 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840C17D22978321008A4B38 /* CustomAlertView.swift */; };
+		8840C1802297B13B008A4B38 /* FMBaseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840C17F2297B13B008A4B38 /* FMBaseAnimationView.swift */; };
+		8840C182229818D9008A4B38 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840C181229818D9008A4B38 /* NibView.swift */; };
+		8840C184229818E6008A4B38 /* NibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8840C183229818E5008A4B38 /* NibView.xib */; };
+		8860800C22969B760090185E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8860800B22969B760090185E /* AppDelegate.swift */; };
+		8860801122969B760090185E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8860800F22969B760090185E /* Main.storyboard */; };
+		8860801322969B770090185E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8860801222969B770090185E /* Assets.xcassets */; };
+		8860801622969B770090185E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8860801422969B770090185E /* LaunchScreen.storyboard */; };
+		8860802322969D240090185E /* FMAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8860802222969D240090185E /* FMAnimationViewController.swift */; };
+		8860802522969D670090185E /* FMAlertAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8860802422969D670090185E /* FMAlertAnimator.swift */; };
+		88D0DA0E2299C4DE00EF8B0C /* FMBaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D0DA0D2299C4DE00EF8B0C /* FMBaseAnimator.swift */; };
+		88D0DA102299CB5000EF8B0C /* FMActionSheetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D0DA0F2299CB5000EF8B0C /* FMActionSheetAnimator.swift */; };
+		88FFF39922C34DB800C4FBD8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFF39822C34DB800C4FBD8 /* RootViewController.swift */; };
+		8C0D450F76CA06CE4772382A /* Pods_ViewControllerTransitionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0420DB66E0345B67AFC2329 /* Pods_ViewControllerTransitionAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8840C17D22978321008A4B38 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		8840C17F2297B13B008A4B38 /* FMBaseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMBaseAnimationView.swift; sourceTree = "<group>"; };
+		8840C181229818D9008A4B38 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		8840C183229818E5008A4B38 /* NibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibView.xib; sourceTree = "<group>"; };
+		8860800822969B760090185E /* ViewControllerTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8860800B22969B760090185E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8860801022969B760090185E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8860801222969B770090185E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8860801522969B770090185E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8860801722969B770090185E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8860802222969D240090185E /* FMAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAnimationViewController.swift; sourceTree = "<group>"; };
+		8860802422969D670090185E /* FMAlertAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAlertAnimator.swift; sourceTree = "<group>"; };
+		88D0DA0D2299C4DE00EF8B0C /* FMBaseAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMBaseAnimator.swift; sourceTree = "<group>"; };
+		88D0DA0F2299CB5000EF8B0C /* FMActionSheetAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMActionSheetAnimator.swift; sourceTree = "<group>"; };
+		88EC607DF7C66D05E6D32ECA /* Pods-ViewControllerTransitionAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewControllerTransitionAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewControllerTransitionAnimation/Pods-ViewControllerTransitionAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		88FFF39822C34DB800C4FBD8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A0420DB66E0345B67AFC2329 /* Pods_ViewControllerTransitionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewControllerTransitionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7947E0EA5B37EEED203DEE7 /* Pods-ViewControllerTransitionAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewControllerTransitionAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewControllerTransitionAnimation/Pods-ViewControllerTransitionAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8860800522969B760090185E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0D450F76CA06CE4772382A /* Pods_ViewControllerTransitionAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88607FFF22969B760090185E = {
+			isa = PBXGroup;
+			children = (
+				8860800A22969B760090185E /* ViewControllerTransitionAnimation */,
+				8860800922969B760090185E /* Products */,
+				CF6CCAB676DA8F33CBAEE446 /* Pods */,
+				B0EFB82FF80D780FC5037D05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8860800922969B760090185E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8860800822969B760090185E /* ViewControllerTransitionAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8860800A22969B760090185E /* ViewControllerTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8860800B22969B760090185E /* AppDelegate.swift */,
+				8860800F22969B760090185E /* Main.storyboard */,
+				8860801222969B770090185E /* Assets.xcassets */,
+				8860801422969B770090185E /* LaunchScreen.storyboard */,
+				8860801722969B770090185E /* Info.plist */,
+				88FFF39822C34DB800C4FBD8 /* RootViewController.swift */,
+				8860802222969D240090185E /* FMAnimationViewController.swift */,
+				8860802422969D670090185E /* FMAlertAnimator.swift */,
+				88D0DA0F2299CB5000EF8B0C /* FMActionSheetAnimator.swift */,
+				88D0DA0D2299C4DE00EF8B0C /* FMBaseAnimator.swift */,
+				8840C17F2297B13B008A4B38 /* FMBaseAnimationView.swift */,
+				8840C17D22978321008A4B38 /* CustomAlertView.swift */,
+				8840C181229818D9008A4B38 /* NibView.swift */,
+				8840C183229818E5008A4B38 /* NibView.xib */,
+			);
+			path = ViewControllerTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		B0EFB82FF80D780FC5037D05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0420DB66E0345B67AFC2329 /* Pods_ViewControllerTransitionAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6CCAB676DA8F33CBAEE446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88EC607DF7C66D05E6D32ECA /* Pods-ViewControllerTransitionAnimation.debug.xcconfig */,
+				A7947E0EA5B37EEED203DEE7 /* Pods-ViewControllerTransitionAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8860800722969B760090185E /* ViewControllerTransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8860801A22969B770090185E /* Build configuration list for PBXNativeTarget "ViewControllerTransitionAnimation" */;
+			buildPhases = (
+				613D98A1C1F851A70DF805BF /* [CP] Check Pods Manifest.lock */,
+				8860800422969B760090185E /* Sources */,
+				8860800522969B760090185E /* Frameworks */,
+				8860800622969B760090185E /* Resources */,
+				3C8728D7F5F0F77D34BAF0C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewControllerTransitionAnimation;
+			productName = ViewControllerTransitionAnimation;
+			productReference = 8860800822969B760090185E /* ViewControllerTransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8860800022969B760090185E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yfm;
+				TargetAttributes = {
+					8860800722969B760090185E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8860800322969B760090185E /* Build configuration list for PBXProject "ViewControllerTransitionAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88607FFF22969B760090185E;
+			productRefGroup = 8860800922969B760090185E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8860800722969B760090185E /* ViewControllerTransitionAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8860800622969B760090185E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8860801622969B770090185E /* LaunchScreen.storyboard in Resources */,
+				8860801322969B770090185E /* Assets.xcassets in Resources */,
+				8860801122969B760090185E /* Main.storyboard in Resources */,
+				8840C184229818E6008A4B38 /* NibView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C8728D7F5F0F77D34BAF0C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViewControllerTransitionAnimation/Pods-ViewControllerTransitionAnimation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewControllerTransitionAnimation/Pods-ViewControllerTransitionAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613D98A1C1F851A70DF805BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewControllerTransitionAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8860800422969B760090185E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FFF39922C34DB800C4FBD8 /* RootViewController.swift in Sources */,
+				88D0DA0E2299C4DE00EF8B0C /* FMBaseAnimator.swift in Sources */,
+				8840C17E22978321008A4B38 /* CustomAlertView.swift in Sources */,
+				8840C1802297B13B008A4B38 /* FMBaseAnimationView.swift in Sources */,
+				8860802522969D670090185E /* FMAlertAnimator.swift in Sources */,
+				8860802322969D240090185E /* FMAnimationViewController.swift in Sources */,
+				88D0DA102299CB5000EF8B0C /* FMActionSheetAnimator.swift in Sources */,
+				8860800C22969B760090185E /* AppDelegate.swift in Sources */,
+				8840C182229818D9008A4B38 /* NibView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8860800F22969B760090185E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8860801022969B760090185E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8860801422969B770090185E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8860801522969B770090185E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8860801822969B770090185E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8860801922969B770090185E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8860801B22969B770090185E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88EC607DF7C66D05E6D32ECA /* Pods-ViewControllerTransitionAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468RHTY984;
+				INFOPLIST_FILE = ViewControllerTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yfm.ViewControllerTransitionAnimationtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8860801C22969B770090185E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7947E0EA5B37EEED203DEE7 /* Pods-ViewControllerTransitionAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468RHTY984;
+				INFOPLIST_FILE = ViewControllerTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yfm.ViewControllerTransitionAnimationtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8860800322969B760090185E /* Build configuration list for PBXProject "ViewControllerTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8860801822969B770090185E /* Debug */,
+				8860801922969B770090185E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8860801A22969B770090185E /* Build configuration list for PBXNativeTarget "ViewControllerTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8860801B22969B770090185E /* Debug */,
+				8860801C22969B770090185E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8860800022969B760090185E /* Project object */;
+}
